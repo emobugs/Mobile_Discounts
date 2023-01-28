@@ -27,3 +27,23 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+
+@media screen and (max-width:600px) {
+  .discounts{
+      width: 70%;
+      background-color: antiquewhite;
+  }
+
+  .product{
+      background-color: brown;
+      width: 100px;
+      height: 100px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .discounts{
+      display: none;
+  }
+}
